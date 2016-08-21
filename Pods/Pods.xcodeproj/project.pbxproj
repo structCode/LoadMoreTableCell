@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C566530D5EDA751BB25521DE2963515 /* UITableView+FDTemplateLayoutCellDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = FBED6D4BFDDB558BCED53679ED20DA69 /* UITableView+FDTemplateLayoutCellDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		221B0D54469DC9D2A1494B5CB049DAD5 /* UITableView+FDKeyedHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = EAB4672D76D2FE89F21A8A3378710684 /* UITableView+FDKeyedHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		495B8A8DD3B4E2F46D97886DF809DB0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		5A373F771328046812A0A7A9F5DF99EF /* UITableView+FDIndexPathHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D1F0AEAEC04C91878522FD4C360592ED /* UITableView+FDIndexPathHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		655B757271F14C1CFA6781F1EF5CEBF3 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D41F887F6A1003258DE15B8ED12FFFE /* UITableView+FDTemplateLayoutCellDebug.m */; };
+		71D43681560B057B8414B1C91C2549E8 /* UITableView+FDTemplateLayoutCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46602CA47FB3BE58BAB06537FAF2C801 /* UITableView+FDTemplateLayoutCell-dummy.m */; };
+		8BA47F6F3CDA8CE6E25A33BABFDA00F1 /* UITableView+FDIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B778352D1AE42B12B6ED52146DC158EB /* UITableView+FDIndexPathHeightCache.m */; };
+		A1C245523E31F580EBBAD726733E1944 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5D21B6DF1E0057E464E5F209A9663B /* UITableView+FDTemplateLayoutCell.m */; };
+		AB1B6BCA97442057BE208B51A5B0E48D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		CA7152BD61CBA27E1FF1E9966A721C84 /* UITableView+FDTemplateLayoutCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 25DED341B760D28F414F03E6E64BDC48 /* UITableView+FDTemplateLayoutCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1DCDF6DDEA99E8AB782F721B6C5B9E2 /* UITableView+FDKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E58AF82BAC51E30C2DD73BC5443498E7 /* UITableView+FDKeyedHeightCache.m */; };
+		F2A954BC450CDF6C0425FAED6A45E82B /* Pods-LoadMoreTableCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C348F10819E16CF6815C9B8A6FCF7FD /* Pods-LoadMoreTableCell-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5192C5240286FD569F3D95E1F3F9FC2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09ACC4496776F3A2060930F605F84CFA;
+			remoteInfo = "UITableView+FDTemplateLayoutCell";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		117B8AA10EE0909223E21F6A15B1DAA6 /* UITableView+FDTemplateLayoutCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell-prefix.pch"; sourceTree = "<group>"; };
+		1E8FF76C5B431E3E40CD3A7783C1D120 /* UITableView+FDTemplateLayoutCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UITableView+FDTemplateLayoutCell.xcconfig"; sourceTree = "<group>"; };
+		25DED341B760D28F414F03E6E64BDC48 /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDTemplateLayoutCell.h"; path = "Classes/UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
+		2C348F10819E16CF6815C9B8A6FCF7FD /* Pods-LoadMoreTableCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoadMoreTableCell-dummy.m"; sourceTree = "<group>"; };
+		3D41F887F6A1003258DE15B8ED12FFFE /* UITableView+FDTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDTemplateLayoutCellDebug.m"; path = "Classes/UITableView+FDTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
+		46602CA47FB3BE58BAB06537FAF2C801 /* UITableView+FDTemplateLayoutCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell-dummy.m"; sourceTree = "<group>"; };
+		4B8FE44C848642000CEBB766B851E4F5 /* Pods-LoadMoreTableCell-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoadMoreTableCell-acknowledgements.plist"; sourceTree = "<group>"; };
+		4CBBC96739AD6CC3AB887894A6953BC3 /* libPods-LoadMoreTableCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoadMoreTableCell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E70007E8EA651DE7B1CF4424FCEF674 /* Pods-LoadMoreTableCell-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoadMoreTableCell-resources.sh"; sourceTree = "<group>"; };
+		7A4ED6B22AA04D9B75D5D7E815C49FB1 /* Pods-LoadMoreTableCell-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoadMoreTableCell-frameworks.sh"; sourceTree = "<group>"; };
+		831A30ECD8E59F589194ECD4A8E3204C /* Pods-LoadMoreTableCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoadMoreTableCell.release.xcconfig"; sourceTree = "<group>"; };
+		8C70D1C9E6D7B1BF27CC9712B05A26B3 /* Pods-LoadMoreTableCell-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoadMoreTableCell-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9008220EFE323ABC3C02385E08DA5F44 /* Pods-LoadMoreTableCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoadMoreTableCell.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B778352D1AE42B12B6ED52146DC158EB /* UITableView+FDIndexPathHeightCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDIndexPathHeightCache.m"; path = "Classes/UITableView+FDIndexPathHeightCache.m"; sourceTree = "<group>"; };
+		C58C24E9347E9C015170ACB6B2641EBD /* libUITableView+FDTemplateLayoutCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUITableView+FDTemplateLayoutCell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1F0AEAEC04C91878522FD4C360592ED /* UITableView+FDIndexPathHeightCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDIndexPathHeightCache.h"; path = "Classes/UITableView+FDIndexPathHeightCache.h"; sourceTree = "<group>"; };
+		E58AF82BAC51E30C2DD73BC5443498E7 /* UITableView+FDKeyedHeightCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDKeyedHeightCache.m"; path = "Classes/UITableView+FDKeyedHeightCache.m"; sourceTree = "<group>"; };
+		EAB4672D76D2FE89F21A8A3378710684 /* UITableView+FDKeyedHeightCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDKeyedHeightCache.h"; path = "Classes/UITableView+FDKeyedHeightCache.h"; sourceTree = "<group>"; };
+		FA5D21B6DF1E0057E464E5F209A9663B /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDTemplateLayoutCell.m"; path = "Classes/UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
+		FBED6D4BFDDB558BCED53679ED20DA69 /* UITableView+FDTemplateLayoutCellDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDTemplateLayoutCellDebug.h"; path = "Classes/UITableView+FDTemplateLayoutCellDebug.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AC057E558712EC39CBE232492E422DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495B8A8DD3B4E2F46D97886DF809DB0E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FFA2A29BF303DFD99DC9AF1F0B1EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1B6BCA97442057BE208B51A5B0E48D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C138BA27445E2A17CC715F8DA396A4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58751A7C29D7F1EE80CC4522ED9A22E8 /* UITableView+FDTemplateLayoutCell */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		58751A7C29D7F1EE80CC4522ED9A22E8 /* UITableView+FDTemplateLayoutCell */ = {
+			isa = PBXGroup;
+			children = (
+				D1F0AEAEC04C91878522FD4C360592ED /* UITableView+FDIndexPathHeightCache.h */,
+				B778352D1AE42B12B6ED52146DC158EB /* UITableView+FDIndexPathHeightCache.m */,
+				EAB4672D76D2FE89F21A8A3378710684 /* UITableView+FDKeyedHeightCache.h */,
+				E58AF82BAC51E30C2DD73BC5443498E7 /* UITableView+FDKeyedHeightCache.m */,
+				25DED341B760D28F414F03E6E64BDC48 /* UITableView+FDTemplateLayoutCell.h */,
+				FA5D21B6DF1E0057E464E5F209A9663B /* UITableView+FDTemplateLayoutCell.m */,
+				FBED6D4BFDDB558BCED53679ED20DA69 /* UITableView+FDTemplateLayoutCellDebug.h */,
+				3D41F887F6A1003258DE15B8ED12FFFE /* UITableView+FDTemplateLayoutCellDebug.m */,
+				D8E78E364B909B3ECC7D55C075BC6189 /* Support Files */,
+			);
+			path = "UITableView+FDTemplateLayoutCell";
+			sourceTree = "<group>";
+		};
+		5DAACE139A89C2FBAC50D51603544566 /* Pods-LoadMoreTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				8C70D1C9E6D7B1BF27CC9712B05A26B3 /* Pods-LoadMoreTableCell-acknowledgements.markdown */,
+				4B8FE44C848642000CEBB766B851E4F5 /* Pods-LoadMoreTableCell-acknowledgements.plist */,
+				2C348F10819E16CF6815C9B8A6FCF7FD /* Pods-LoadMoreTableCell-dummy.m */,
+				7A4ED6B22AA04D9B75D5D7E815C49FB1 /* Pods-LoadMoreTableCell-frameworks.sh */,
+				6E70007E8EA651DE7B1CF4424FCEF674 /* Pods-LoadMoreTableCell-resources.sh */,
+				9008220EFE323ABC3C02385E08DA5F44 /* Pods-LoadMoreTableCell.debug.xcconfig */,
+				831A30ECD8E59F589194ECD4A8E3204C /* Pods-LoadMoreTableCell.release.xcconfig */,
+			);
+			name = "Pods-LoadMoreTableCell";
+			path = "Target Support Files/Pods-LoadMoreTableCell";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2C138BA27445E2A17CC715F8DA396A4E /* Pods */,
+				8EAB10B97519735247993A885C93E40C /* Products */,
+				C710A9A318FA02F94E3076DC06BB53E3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8EAB10B97519735247993A885C93E40C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CBBC96739AD6CC3AB887894A6953BC3 /* libPods-LoadMoreTableCell.a */,
+				C58C24E9347E9C015170ACB6B2641EBD /* libUITableView+FDTemplateLayoutCell.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C710A9A318FA02F94E3076DC06BB53E3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DAACE139A89C2FBAC50D51603544566 /* Pods-LoadMoreTableCell */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D8E78E364B909B3ECC7D55C075BC6189 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E8FF76C5B431E3E40CD3A7783C1D120 /* UITableView+FDTemplateLayoutCell.xcconfig */,
+				46602CA47FB3BE58BAB06537FAF2C801 /* UITableView+FDTemplateLayoutCell-dummy.m */,
+				117B8AA10EE0909223E21F6A15B1DAA6 /* UITableView+FDTemplateLayoutCell-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UITableView+FDTemplateLayoutCell";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		330DAE4DB5C897A46E88C7EB3A53EE63 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A373F771328046812A0A7A9F5DF99EF /* UITableView+FDIndexPathHeightCache.h in Headers */,
+				221B0D54469DC9D2A1494B5CB049DAD5 /* UITableView+FDKeyedHeightCache.h in Headers */,
+				CA7152BD61CBA27E1FF1E9966A721C84 /* UITableView+FDTemplateLayoutCell.h in Headers */,
+				0C566530D5EDA751BB25521DE2963515 /* UITableView+FDTemplateLayoutCellDebug.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09ACC4496776F3A2060930F605F84CFA /* UITableView+FDTemplateLayoutCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4593DC532BA4841A776237F18D2131 /* Build configuration list for PBXNativeTarget "UITableView+FDTemplateLayoutCell" */;
+			buildPhases = (
+				DA53D50C793BC1FCAE542E5FA8F80B2B /* Sources */,
+				30FFA2A29BF303DFD99DC9AF1F0B1EB6 /* Frameworks */,
+				330DAE4DB5C897A46E88C7EB3A53EE63 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITableView+FDTemplateLayoutCell";
+			productName = "UITableView+FDTemplateLayoutCell";
+			productReference = C58C24E9347E9C015170ACB6B2641EBD /* libUITableView+FDTemplateLayoutCell.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ED83536A65ED97E08DBEF7F4BB34DB09 /* Pods-LoadMoreTableCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F32419EDFE016BC3B97F636EE5235EAB /* Build configuration list for PBXNativeTarget "Pods-LoadMoreTableCell" */;
+			buildPhases = (
+				10C1414A2D6780DF9C321F92AD310D7E /* Sources */,
+				0AC057E558712EC39CBE232492E422DD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DE829AD6DFA0E7536F57BA52A1862D9 /* PBXTargetDependency */,
+			);
+			name = "Pods-LoadMoreTableCell";
+			productName = "Pods-LoadMoreTableCell";
+			productReference = 4CBBC96739AD6CC3AB887894A6953BC3 /* libPods-LoadMoreTableCell.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8EAB10B97519735247993A885C93E40C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED83536A65ED97E08DBEF7F4BB34DB09 /* Pods-LoadMoreTableCell */,
+				09ACC4496776F3A2060930F605F84CFA /* UITableView+FDTemplateLayoutCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10C1414A2D6780DF9C321F92AD310D7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A954BC450CDF6C0425FAED6A45E82B /* Pods-LoadMoreTableCell-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA53D50C793BC1FCAE542E5FA8F80B2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA47F6F3CDA8CE6E25A33BABFDA00F1 /* UITableView+FDIndexPathHeightCache.m in Sources */,
+				D1DCDF6DDEA99E8AB782F721B6C5B9E2 /* UITableView+FDKeyedHeightCache.m in Sources */,
+				71D43681560B057B8414B1C91C2549E8 /* UITableView+FDTemplateLayoutCell-dummy.m in Sources */,
+				A1C245523E31F580EBBAD726733E1944 /* UITableView+FDTemplateLayoutCell.m in Sources */,
+				655B757271F14C1CFA6781F1EF5CEBF3 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DE829AD6DFA0E7536F57BA52A1862D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UITableView+FDTemplateLayoutCell";
+			target = 09ACC4496776F3A2060930F605F84CFA /* UITableView+FDTemplateLayoutCell */;
+			targetProxy = 5192C5240286FD569F3D95E1F3F9FC2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17D392F8540080B11A0D6488B13FFDEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9008220EFE323ABC3C02385E08DA5F44 /* Pods-LoadMoreTableCell.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4C8F7A66DAD231BA5F622F32981CB575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 831A30ECD8E59F589194ECD4A8E3204C /* Pods-LoadMoreTableCell.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCB9654BF108E715EE11E22AA4F4DA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E8FF76C5B431E3E40CD3A7783C1D120 /* UITableView+FDTemplateLayoutCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D980BE3AFC625F7B3310549D9A2C2D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E8FF76C5B431E3E40CD3A7783C1D120 /* UITableView+FDTemplateLayoutCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D4593DC532BA4841A776237F18D2131 /* Build configuration list for PBXNativeTarget "UITableView+FDTemplateLayoutCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D980BE3AFC625F7B3310549D9A2C2D71 /* Debug */,
+				BCB9654BF108E715EE11E22AA4F4DA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F32419EDFE016BC3B97F636EE5235EAB /* Build configuration list for PBXNativeTarget "Pods-LoadMoreTableCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D392F8540080B11A0D6488B13FFDEB /* Debug */,
+				4C8F7A66DAD231BA5F622F32981CB575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
